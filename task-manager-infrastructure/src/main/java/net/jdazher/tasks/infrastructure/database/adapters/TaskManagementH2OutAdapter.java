@@ -1,4 +1,4 @@
-package net.jdazher.tasks.infrastructure.adapters;
+package net.jdazher.tasks.infrastructure.database.adapters;
 
 import net.jdazher.domain.tasks.model.Task;
 import net.jdazher.tasks.ports.output.TaskManagementOutputPort;
@@ -6,6 +6,7 @@ import net.jdazher.tasks.ports.output.TaskManagementOutputPort;
 import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
+
 
 public class TaskManagementH2OutAdapter implements TaskManagementOutputPort {
     @Override

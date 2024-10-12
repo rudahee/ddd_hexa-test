@@ -1,4 +1,4 @@
-package net.hexaddd.taskmanager.domain.model;
+package net.jdazher.domain.tasks.model;
 
 import lombok.*;
 

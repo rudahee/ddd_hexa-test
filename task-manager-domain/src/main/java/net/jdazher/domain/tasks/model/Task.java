@@ -1,10 +1,10 @@
-package net.hexaddd.taskmanager.domain.model;
+package net.jdazher.domain.tasks.model;
 
-import jakarta.annotation.Nullable;
-import lombok.*;
-import net.hexaddd.taskmanager.domain.IllegalDateException;
+import lombok.EqualsAndHashCode;
+import lombok.Getter;
+import lombok.ToString;
+import net.jdazher.domain.tasks.error.IllegalDateException;
 
-import java.time.Year;
 import java.time.ZonedDateTime;
 import java.util.ArrayList;
 import java.util.List;
@@ -14,10 +14,10 @@ import java.util.UUID;
 @Getter
 @ToString
 @EqualsAndHashCode
-public class Task {
+public final class Task {
 
 
-    private UUID id;
+    private final UUID id;
     private final String title;
     private final String description;
     private ZonedDateTime dueDate;
@@ -45,14 +45,16 @@ public class Task {
         tags = new ArrayList<>();
     }
 
-
-
-    public void isInProgress() {
-        this.status = TaskStatus.IN_PROGRESS;
-    }
-
-    public void isCompleted() {
-        this.status = TaskStatus.COMPLETED;
+    private void setStatus(TaskStatus status) {
+        if (this.status==TaskStatus.DUE
+                || this.status==TaskStatus.COMPLETED
+                || this.status == TaskStatus.CANCELLED) {
+            throw new IllegalStateException("Cannot change status of completed or due tasks.");
+        } else if (status == TaskStatus.CREATED) {
+            throw new IllegalStateException("Cannot change status to initial state.");
+        } else {
+            this.status = status;
+        }
     }
 
     private void isDue() {
@@ -72,8 +74,7 @@ public class Task {
     }
 
     public void checkStatus() {
-        if (this.status == TaskStatus.CREATED || this.status == TaskStatus.IN_PROGRESS
-                && this.dueDate.isBefore(ZonedDateTime.now())) {
+        if (this.status == TaskStatus.CREATED && this.dueDate.isBefore(ZonedDateTime.now())) {
             this.isDue();
         }
     }
