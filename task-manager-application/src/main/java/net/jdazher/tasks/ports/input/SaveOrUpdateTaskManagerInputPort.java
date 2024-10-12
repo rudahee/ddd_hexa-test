@@ -2,6 +2,7 @@ package net.jdazher.tasks.ports.input;
 
 import net.jdazher.domain.tasks.model.Task;
 import net.jdazher.domain.tasks.repository.TaskRepository;
+import net.jdazher.tasks.ports.output.TaskManagementOutputPort;
 import net.jdazher.tasks.use_cases.SaveAllTasksUseCase;
 import net.jdazher.tasks.use_cases.SaveTaskUseCase;
 import net.jdazher.tasks.use_cases.UpdateTaskUseCase;
@@ -11,9 +12,9 @@ import java.util.Optional;
 
 public class SaveOrUpdateTaskManagerInputPort implements SaveTaskUseCase, SaveAllTasksUseCase, UpdateTaskUseCase {
 
-    private final TaskRepository taskRepository;
+    private final TaskManagementOutputPort taskRepository;
 
-    public SaveOrUpdateTaskManagerInputPort(TaskRepository taskRepository) {
+    public SaveOrUpdateTaskManagerInputPort(TaskManagementOutputPort taskRepository) {
         this.taskRepository = taskRepository;
     }
 
@@ -23,10 +24,10 @@ public class SaveOrUpdateTaskManagerInputPort implements SaveTaskUseCase, SaveAl
     }
     @Override
     public Optional<Task> saveTask(Task task) {
-        return Optional.of(taskRepository.save(task));
+        return taskRepository.saveTask(task);
     }
     @Override
     public Optional<Task> updateTask(Task task) {
-        return  Optional.of(taskRepository.update(task));
+        return  taskRepository.updateTask(task);
     }
 }
