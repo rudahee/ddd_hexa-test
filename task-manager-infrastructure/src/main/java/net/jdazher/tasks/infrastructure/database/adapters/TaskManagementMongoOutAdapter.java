@@ -1,6 +1,7 @@
 package net.jdazher.tasks.infrastructure.database.adapters;
 
 import net.jdazher.domain.tasks.model.Task;
+import net.jdazher.domain.tasks.model.TaskTag;
 import net.jdazher.tasks.infrastructure.database.repositories.TaskMongoRepository;
 import net.jdazher.tasks.ports.output.TaskManagementOutputPort;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,7 +14,7 @@ import java.util.UUID;
 @Component
 public class TaskManagementMongoOutAdapter implements TaskManagementOutputPort {
 
-    private TaskMongoRepository repository;
+    private final TaskMongoRepository repository;
 
     @Autowired
     public TaskManagementMongoOutAdapter(TaskMongoRepository repository) {
@@ -48,5 +49,25 @@ public class TaskManagementMongoOutAdapter implements TaskManagementOutputPort {
     @Override
     public List<Task> saveAll(List<Task> tasks) {
         return repository.saveAll(tasks);
+    }
+
+    @Override
+    public TaskTag transformStringToTag(String tag) {
+        return null;
+    }
+
+    @Override
+    public List<TaskTag> transformStringsToTags(List<String> tags) {
+        return null;
+    }
+
+    @Override
+    public String transformTagToString(TaskTag tag) {
+        return null;
+    }
+
+    @Override
+    public List<String> transformTagsToStrings(List<TaskTag> tags) {
+        return TaskManagementOutputPort.super.transformTagsToStrings(tags);
     }
 }

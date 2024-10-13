@@ -1,13 +1,16 @@
 
-i
-java:S1452"&Remove usage of generic wildcard type.(‹ÉğŞ8î¢ç§2J$e7deecde-7aa2-44ea-b0da-1ca1b505d38a
-n
-java:S1452""&Remove usage of generic wildcard type.(œ„Î÷ÿÿÿÿÿ8î¢ç§2J$6a0d89f4-3f3a-4496-a3db-3e27829d7255
-h
-java:S1452'"&Remove usage of generic wildcard type.(ÈÀ“58î¢ç§2J$67926363-c91f-47da-8e22-73821d0dd6ad
-n
-java:S1452+"&Remove usage of generic wildcard type.(ëõ•óÿÿÿÿÿ8î¢ç§2J$45f0e482-b2c2-4a00-80cd-664197f1a8ad
-i
-java:S14520"&Remove usage of generic wildcard type.(ÕÔô†8‘î¢ç§2J$73550027-7c55-4219-bb68-11e6cdd38db5
-i
-java:S14525"&Remove usage of generic wildcard type.(ä÷¾Í8ä¤¥ç§2J$a62295cd-f217-41dc-959f-1b9938c55d6d
+H
+java:S1452"&Remove usage of generic wildcard type.(ğŞ‡»ÿÿÿÿÿ8—ğ¨2
+H
+java:S1452"&Remove usage of generic wildcard type.(œ„Î÷ÿÿÿÿÿ8˜ğ¨2
+o	java:S100$"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(äÂ÷ûùÿÿÿÿ8˜ğ¨2
+H
+java:S1452$"&Remove usage of generic wildcard type.(äÂ÷ûùÿÿÿÿ8˜ğ¨2
+H
+java:S1452("&Remove usage of generic wildcard type.(ëõ•óÿÿÿÿÿ8˜ğ¨2
+C
+java:S1452-"&Remove usage of generic wildcard type.(ÕÔô†8™ğ¨2
+H
+java:S14522"&Remove usage of generic wildcard type.(ÄÑõšúÿÿÿÿ8™ğ¨2
+`
+java:S1128"CRemove this unused import 'net.jdazher.domain.tasks.model.TaskTag'.(¦Ó8šğ¨2

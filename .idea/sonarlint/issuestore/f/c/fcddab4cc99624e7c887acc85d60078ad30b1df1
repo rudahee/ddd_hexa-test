@@ -1,3 +1,13 @@
 
+
+java:S2589 "7Remove this expression which always evaluates to "true"(çÖ–üÿÿÿÿ8»ÖèŒ¨2J$3dcc5341-b953-435b-b1c4-6c1e44475d8d
+
+java:S2589-"7Remove this expression which always evaluates to "true"(çÖ–üÿÿÿÿ8»ÖèŒ¨2J$75b3251e-7501-4107-9e65-09edb690d4bf
+
+java:S25898"7Remove this expression which always evaluates to "true"(çÖ–üÿÿÿÿ8»ÖèŒ¨2J$1b19a666-791d-41a3-be94-88c4051a2f7c
+‹
+java:S2583;"CChange this condition so that it does not always evaluate to "true"(Ø»¿Äûÿÿÿÿ8»ÖèŒ¨2J$082a730a-00f1-4544-89cd-ce4fb0da18b6
+‹
+java:S2583#"CChange this condition so that it does not always evaluate to "true"(Ø»¿Äûÿÿÿÿ8»ÖèŒ¨2J$364d91df-49ea-4314-9269-ec3462a61be4
 v
-java:S11440".Remove this unused private "setStatus" method.(—ÌÀÒşÿÿÿÿ8Îã¼½§2J$d5a30c3d-95d1-4f12-9e5c-c29d5a7d2699
+java:S1144A".Remove this unused private "setStatus" method.(—ÌÀÒşÿÿÿÿ8¾ÖèŒ¨2J$48f612fb-2139-4f8a-bc41-9476aef9517c

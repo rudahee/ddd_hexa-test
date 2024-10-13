@@ -5,36 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ae2c171-e57a-4fce-8474-e57dcb8169fd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/task-manager-domain/src/main/java/net/jdazher/domain/tasks/service/TaskService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task-manager-infrastructure/src/main/java/net/jdazher/tasks/infrastructure/database/repositories/TaskMongoRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/4/64be8af0abcc20d6233b46eed94d3dd4fc5b7b43" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/4/64be8af0abcc20d6233b46eed94d3dd4fc5b7b43" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/d/6d2be1911c2048f874efa0852660cf782f9ad602" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/1/d1d51842c13c5f080c31b85350dab2a6ce3ac94f" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/f/4fd8c546a0afe1a21ba92a3cbb42cb3d7fb5f2c9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/5/75c86e340d37e0db9b887e0de3a23ca8922799f3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/0/90c0097408f28408db60a5b3059907908c7070c6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/f/4fd8c546a0afe1a21ba92a3cbb42cb3d7fb5f2c9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/5/75c86e340d37e0db9b887e0de3a23ca8922799f3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/0/90c0097408f28408db60a5b3059907908c7070c6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-manager-infrastructure/src/main/java/net/jdazher/tasks/infrastructure/MainApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-manager-infrastructure/src/main/java/net/jdazher/tasks/infrastructure/database/entity/TaskEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-manager-infrastructure/src/main/java/net/jdazher/tasks/infrastructure/database/entity/TaskStatusEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-manager-infrastructure/src/main/java/net/jdazher/tasks/infrastructure/database/repositories/TaskH2Repository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-manager-infrastructure/src/main/java/net/jdazher/tasks/infrastructure/rest_api/TaskManagementRestApiAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-manager-infrastructure/src/main/java/net/jdazher/tasks/infrastructure/rest_api/model/TaskJson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-manager-infrastructure/src/main/java/net/jdazher/tasks/infrastructure/rest_api/model/TaskStatusJson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-manager-infrastructure/src/main/java/net/jdazher/tasks/infrastructure/rest_api/model/TaskTagJson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-manager-infrastructure/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/2/82b94bed6f7e7c55cdf61592a4a7c9ccdefede35" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/2/82b94bed6f7e7c55cdf61592a4a7c9ccdefede35" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/f/bf2898a98c7e9bf7c8f410bb0bb00fd0be18d5c3" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/f/bf2898a98c7e9bf7c8f410bb0bb00fd0be18d5c3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/4/c4e4818dfaa6d09ff11e6eb989ddddd7eacaeb84" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/4/c4e4818dfaa6d09ff11e6eb989ddddd7eacaeb84" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/9/f9278b81d4256e6d98881b71b2131a65eb4e5f9b" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/9/f9278b81d4256e6d98881b71b2131a65eb4e5f9b" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/c/fcddab4cc99624e7c887acc85d60078ad30b1df1" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/c/fcddab4cc99624e7c887acc85d60078ad30b1df1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/d/6d2be1911c2048f874efa0852660cf782f9ad602" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/1/d1d51842c13c5f080c31b85350dab2a6ce3ac94f" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task-manager-application/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/task-manager-application/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task-manager-application/src/main/java/net/jdazher/tasks/ports/input/GetTaskManagementInputPort.java" beforeDir="false" afterPath="$PROJECT_DIR$/task-manager-application/src/main/java/net/jdazher/tasks/ports/input/GetTaskManagementInputPort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task-manager-application/src/main/java/net/jdazher/tasks/ports/input/SaveOrUpdateTaskManagerInputPort.java" beforeDir="false" afterPath="$PROJECT_DIR$/task-manager-application/src/main/java/net/jdazher/tasks/ports/input/SaveOrUpdateTaskManagerInputPort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task-manager-application/src/main/java/net/jdazher/tasks/ports/output/TaskManagementOutputPort.java" beforeDir="false" afterPath="$PROJECT_DIR$/task-manager-application/src/main/java/net/jdazher/tasks/ports/output/TaskManagementOutputPort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task-manager-application/src/main/java/net/jdazher/tasks/use_cases/GetAllTasksUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/task-manager-application/src/main/java/net/jdazher/tasks/use_cases/GetAllTasksUseCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task-manager-application/src/main/java/net/jdazher/tasks/use_cases/GetTaskUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/task-manager-application/src/main/java/net/jdazher/tasks/use_cases/GetTaskUseCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task-manager-application/src/main/java/net/jdazher/tasks/use_cases/SaveAllTasksUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/task-manager-application/src/main/java/net/jdazher/tasks/use_cases/SaveAllTasksUseCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task-manager-application/src/main/java/net/jdazher/tasks/use_cases/SaveTaskUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/task-manager-application/src/main/java/net/jdazher/tasks/use_cases/SaveTaskUseCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task-manager-application/src/main/java/net/jdazher/tasks/use_cases/UpdateTaskUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/task-manager-application/src/main/java/net/jdazher/tasks/use_cases/UpdateTaskUseCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task-manager-domain/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/task-manager-domain/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task-manager-domain/src/main/java/net/jdazher/domain/tasks/error/IllegalDateException.java" beforeDir="false" afterPath="$PROJECT_DIR$/task-manager-domain/src/main/java/net/jdazher/domain/tasks/error/IllegalDateException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task-manager-domain/src/main/java/net/jdazher/domain/tasks/model/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/task-manager-domain/src/main/java/net/jdazher/domain/tasks/model/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task-manager-domain/src/main/java/net/jdazher/domain/tasks/model/TaskStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/task-manager-domain/src/main/java/net/jdazher/domain/tasks/model/TaskStatus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task-manager-domain/src/main/java/net/jdazher/domain/tasks/model/TaskTag.java" beforeDir="false" afterPath="$PROJECT_DIR$/task-manager-domain/src/main/java/net/jdazher/domain/tasks/model/TaskTag.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task-manager-domain/src/main/java/net/jdazher/domain/tasks/repository/TaskRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/task-manager-domain/src/main/java/net/jdazher/domain/tasks/repository/TaskRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-manager-domain/src/main/java/net/jdazher/domain/tasks/service/TaskService.java" beforeDir="false" afterPath="$PROJECT_DIR$/task-manager-domain/src/main/java/net/jdazher/domain/tasks/service/TaskService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task-manager-infrastructure/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/task-manager-infrastructure/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task-manager-infrastructure/src/main/java/net/jdazher/tasks/infrastructure/database/adapters/TaskManagementH2OutAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/task-manager-infrastructure/src/main/java/net/jdazher/tasks/infrastructure/database/adapters/TaskManagementH2OutAdapter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task-manager-infrastructure/src/main/java/net/jdazher/tasks/infrastructure/database/adapters/TaskManagementMongoOutAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/task-manager-infrastructure/src/main/java/net/jdazher/tasks/infrastructure/database/adapters/TaskManagementMongoOutAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-manager-infrastructure/src/main/java/net/jdazher/tasks/infrastructure/database/repositories/TaskMongoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/task-manager-infrastructure/src/main/java/net/jdazher/tasks/infrastructure/database/repositories/TaskMongoRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task-manager-infrastructure/src/main/java/net/jdazher/tasks/infrastructure/rest_api/TaskController.java" beforeDir="false" afterPath="$PROJECT_DIR$/task-manager-infrastructure/src/main/java/net/jdazher/tasks/infrastructure/rest_api/TaskController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,8 +49,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -67,12 +71,19 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Maven.task-manager [clean].executor": "Run",
+    "Maven.task-manager [install].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.MainApplication.executor": "Run",
     "jdk.selected.JAVA_MODULE": "corretto-17",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/jdazh/IdeaProjects/task-manager",
+    "last_opened_file_path": "C:/Users/jdazh/IdeaProjects/task-manager/task-manager-infrastructure/src/main/java/net/jdazher/tasks/infrastructure/rest_api/model",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -82,6 +93,21 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jdazh\IdeaProjects\task-manager\task-manager-infrastructure\src\main\java\net\jdazher\tasks\infrastructure\rest_api\model" />
+      <recent name="C:\Users\jdazh\IdeaProjects\task-manager\task-manager-infrastructure\src\main\java\net\jdazher\tasks\infrastructure\database\entity" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="MainApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="task-manager-infrastructure" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="net.jdazher.tasks.infrastructure.MainApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -98,7 +124,7 @@
       <option name="presentableId" value="Default" />
       <updated>1728562036408</updated>
       <workItem from="1728562037517" duration="423000" />
-      <workItem from="1728644700280" duration="5803000" />
+      <workItem from="1728644700280" duration="20146000" />
     </task>
     <servers />
   </component>

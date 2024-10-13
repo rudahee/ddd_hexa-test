@@ -1,16 +1,14 @@
 package net.jdazher.tasks.infrastructure.database.repositories;
 
-import net.jdazher.domain.tasks.model.Task;
 import net.jdazher.tasks.infrastructure.database.entity.TaskEntity;
-import org.springframework.data.mongodb.repository.MongoRepository;
+import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 import java.util.Optional;
 import java.util.UUID;
 
 @Repository
-public interface TaskMongoRepository extends MongoRepository<Task, UUID> {
+public interface TaskH2Repository extends JpaRepository<TaskEntity, UUID> {
 
-
-    Optional<Task> findByTitle(String title);
+    Optional<TaskEntity> findByTitle(String title);
 }

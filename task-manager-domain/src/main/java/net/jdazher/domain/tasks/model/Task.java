@@ -29,20 +29,37 @@ public final class Task {
         this.id = UUID.randomUUID();
         this.title = title;
         this.description = description;
-        if (checkDate())
+        if (checkDate(dueDate))
             this.dueDate = dueDate;
         this.status = TaskStatus.CREATED;
-        this.tags = tags;
+        if (checkTags(tags))
+            this.tags = tags;
+        else
+            throw new IllegalDateException("Tags cannot be duplicated.");
     }
 
     public Task(String title, String description, ZonedDateTime dueDate) throws IllegalDateException {
         this.id = UUID.randomUUID();
         this.title = title;
         this.description = description;
-        if (checkDate())
+        if (checkDate(dueDate))
             this.dueDate = dueDate;
         this.status = TaskStatus.CREATED;
         tags = new ArrayList<>();
+    }
+
+    public Task(UUID id, String title, String description, ZonedDateTime dueDate, TaskStatus status, List<TaskTag> tags) throws IllegalDateException {
+        this.id = id;
+        this.title = title;
+        this.status = status;
+        this.description = description;
+        if (checkDate(dueDate))
+            this.dueDate = dueDate;
+        this.status = TaskStatus.CREATED;
+        if (checkTags(tags))
+            this.tags = tags;
+        else
+            throw new IllegalDateException("Tags cannot be duplicated.");
     }
 
     private void setStatus(TaskStatus status) {
@@ -61,12 +78,12 @@ public final class Task {
         this.status = TaskStatus.DUE;
     }
 
-    public boolean checkDate() throws IllegalDateException {
-        if (this.dueDate.isBefore(ZonedDateTime.now())) {
+    public boolean checkDate(ZonedDateTime dueDate) throws IllegalDateException {
+        if (dueDate.isBefore(ZonedDateTime.now())) {
             throw new IllegalDateException("Due date cannot be in the past.");
         }
 
-        if (this.dueDate.isAfter(ZonedDateTime.now().plusYears(1))) {
+        if (dueDate.isAfter(ZonedDateTime.now().plusYears(1))) {
             throw new IllegalDateException("Due date must be in reasonable time.");
         }
 
@@ -77,6 +94,15 @@ public final class Task {
         if (this.status == TaskStatus.CREATED && this.dueDate.isBefore(ZonedDateTime.now())) {
             this.isDue();
         }
+    }
+
+    private boolean checkTags(List<TaskTag> tags) {
+        tags.forEach(tag -> {
+            if (this.tags.contains(tag)) {
+                throw new IllegalArgumentException("Duplicate tag found.");
+            }
+        });
+        return true;
     }
 
 
