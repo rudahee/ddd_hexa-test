@@ -19,11 +19,12 @@ Before you begin, ensure you have the following installed:
 **Database Setup**
 1. Install the latest version of MongoDB through this official tutorial:
 
-   > [!IMPORTANT]
-   > Windows
+   
+   ```ini
+   [Windows]
    ```
-   https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-windows/
-   ```
+   > https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-windows/
+
 
 
 **Project Setup**
