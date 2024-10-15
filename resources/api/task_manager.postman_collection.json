@@ -1,0 +1,515 @@
+{
+	"info": {
+		"_postman_id": "4e3b43c5-fa6c-46b2-8cdb-62e4e081624b",
+		"name": "task_manager API",
+		"description": "task_manager API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "12807313"
+	},
+	"item": [
+		{
+			"name": "tasks",
+			"item": [
+				{
+					"name": "create",
+					"item": [
+						{
+							"name": "all",
+							"item": [
+								{
+									"name": "POST tasks/create/all",
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json"
+											},
+											{
+												"key": "Accept",
+												"value": "*/*"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "[\n  {\n    \"task\": {\n      \"title\": \"<string>\",\n      \"description\": \"<string>\",\n      \"dueDate\": \"<dateTime>\"\n    }\n  },\n  {\n    \"task\": {\n      \"title\": \"<string>\",\n      \"description\": \"<string>\",\n      \"dueDate\": \"<dateTime>\",\n      \"tags\": [\n        {\n          \"tag\": \"<string>\"\n        },\n        {\n          \"tag\": \"<string>\"\n        }\n      ]\n    }\n  }\n]",
+											"options": {
+												"raw": {
+													"headerFamily": "json",
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseUrl}}/tasks/create/all",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"tasks",
+												"create",
+												"all"
+											]
+										}
+									},
+									"response": [
+										{
+											"name": "OK",
+											"originalRequest": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "Content-Type",
+														"value": "application/json"
+													},
+													{
+														"key": "Accept",
+														"value": "*/*"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "[\n  {\n    \"task\": {\n      \"id\": \"<string>\",\n      \"title\": \"<string>\",\n      \"description\": \"<string>\",\n      \"dueDate\": \"<dateTime>\",\n      \"status\": \"IN_PROGRESS\",\n      \"tags\": [\n        {\n          \"tag\": \"<string>\"\n        },\n        {\n          \"tag\": \"<string>\"\n        }\n      ]\n    }\n  },\n  {\n    \"task\": {\n      \"id\": \"<string>\",\n      \"title\": \"<string>\",\n      \"description\": \"<string>\",\n      \"dueDate\": \"<dateTime>\",\n      \"status\": \"COMPLETED\",\n      \"tags\": [\n        {\n          \"tag\": \"<string>\"\n        },\n        {\n          \"tag\": \"<string>\"\n        }\n      ]\n    }\n  }\n]",
+													"options": {
+														"raw": {
+															"headerFamily": "json",
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{baseUrl}}/tasks/create/all",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"tasks",
+														"create",
+														"all"
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "text",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "*/*"
+												}
+											],
+											"cookie": [],
+											"body": "[]"
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "POST tasks/create",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "*/*"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"task\": {\n    \"title\": \"<string>\",\n    \"description\": \"<string>\",\n    \"dueDate\": \"<dateTime>\",\n    \"tags\": [\n      {\n        \"tag\": \"<string>\"\n      },\n      {\n        \"tag\": \"<string>\"\n      }\n    ]\n  }\n}",
+									"options": {
+										"raw": {
+											"headerFamily": "json",
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/tasks/create",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"tasks",
+										"create"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "OK",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json"
+											},
+											{
+												"key": "Accept",
+												"value": "*/*"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n  \"task\": {\n    \"id\": \"<string>\",\n    \"title\": \"<string>\",\n    \"description\": \"<string>\",\n    \"dueDate\": \"<dateTime>\",\n    \"status\": \"CREATED\",\n    \"tags\": [\n      {\n        \"tag\": \"<string>\"\n      },\n      {\n        \"tag\": \"<string>\"\n      }\n    ]\n  }\n}",
+											"options": {
+												"raw": {
+													"headerFamily": "json",
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseUrl}}/tasks/create",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"tasks",
+												"create"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "*/*"
+										}
+									],
+									"cookie": [],
+									"body": "{}"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "get",
+					"item": [
+						{
+							"name": "all",
+							"item": [
+								{
+									"name": "GET tasks/get/all",
+									"request": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Accept",
+												"value": "*/*"
+											}
+										],
+										"url": {
+											"raw": "{{baseUrl}}/tasks/get/all",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"tasks",
+												"get",
+												"all"
+											]
+										}
+									},
+									"response": [
+										{
+											"name": "OK",
+											"originalRequest": {
+												"method": "GET",
+												"header": [
+													{
+														"key": "Accept",
+														"value": "*/*"
+													}
+												],
+												"url": {
+													"raw": "{{baseUrl}}/tasks/get/all",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"tasks",
+														"get",
+														"all"
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "text",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "*/*"
+												}
+											],
+											"cookie": [],
+											"body": "[]"
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "{id}",
+							"item": [
+								{
+									"name": "GET tasks/get/{id}",
+									"request": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Accept",
+												"value": "*/*"
+											}
+										],
+										"url": {
+											"raw": "{{baseUrl}}/tasks/get/:id",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"tasks",
+												"get",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id",
+													"value": "<string>",
+													"description": "(Required) "
+												}
+											]
+										}
+									},
+									"response": [
+										{
+											"name": "OK",
+											"originalRequest": {
+												"method": "GET",
+												"header": [
+													{
+														"key": "Accept",
+														"value": "*/*"
+													}
+												],
+												"url": {
+													"raw": "{{baseUrl}}/tasks/get/:id",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"tasks",
+														"get",
+														":id"
+													],
+													"variable": [
+														{
+															"key": "id"
+														}
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "text",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "*/*"
+												}
+											],
+											"cookie": [],
+											"body": "{}"
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "GET tasks/get",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "*/*"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/tasks/get?title=<string>",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"tasks",
+										"get"
+									],
+									"query": [
+										{
+											"key": "title",
+											"value": "<string>",
+											"description": "(Required) "
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "OK",
+									"originalRequest": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Accept",
+												"value": "*/*"
+											}
+										],
+										"url": {
+											"raw": "{{baseUrl}}/tasks/get?title=<string>",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"tasks",
+												"get"
+											],
+											"query": [
+												{
+													"key": "title",
+													"value": "<string>",
+													"description": "(Required) "
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "*/*"
+										}
+									],
+									"cookie": [],
+									"body": "[]"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "update",
+					"item": [
+						{
+							"name": "{id}",
+							"item": [
+								{
+									"name": "PUT tasks/update/{id}",
+									"request": {
+										"method": "PUT",
+										"header": [
+											{
+												"key": "Accept",
+												"value": "*/*"
+											}
+										],
+										"url": {
+											"raw": "{{baseUrl}}/tasks/update/:id?status=DUE",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"tasks",
+												"update",
+												":id"
+											],
+											"query": [
+												{
+													"key": "status",
+													"value": "DUE",
+													"description": "(Required) "
+												}
+											],
+											"variable": [
+												{
+													"key": "id",
+													"value": "<string>",
+													"description": "(Required) "
+												}
+											]
+										}
+									},
+									"response": [
+										{
+											"name": "OK",
+											"originalRequest": {
+												"method": "PUT",
+												"header": [
+													{
+														"key": "Accept",
+														"value": "*/*"
+													}
+												],
+												"url": {
+													"raw": "{{baseUrl}}/tasks/update/:id?status=DUE",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"tasks",
+														"update",
+														":id"
+													],
+													"query": [
+														{
+															"key": "status",
+															"value": "DUE",
+															"description": "(Required) "
+														}
+													],
+													"variable": [
+														{
+															"key": "id"
+														}
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "text",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "*/*"
+												}
+											],
+											"cookie": [],
+											"body": "{}"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "http://localhost:8080"
+		}
+	]
+}

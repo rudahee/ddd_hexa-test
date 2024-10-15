@@ -1,0 +1,83 @@
+[{
+  "_id": "59bc322a-00d2-4797-b3f8-7521baff10e4",
+  "title": "Do something",
+  "description": "I need to do something",
+  "dueDate": {
+    "$date": "2024-10-19T09:45:21.542Z"
+  },
+  "status": "IN_PROGRESS",
+  "tags": [
+    {
+      "tag": "Something"
+    },
+    {
+      "tag": "Anyone"
+    }
+  ],
+  "_class": "net.jdazher.domain.tasks.model.Task"
+},
+{
+  "_id": "b3ad960f-d15e-484d-86ae-60c3e4d78b6b",
+  "title": "Do Homework",
+  "description": "Do math homework",
+  "dueDate": {
+    "$date": "2024-10-12T09:45:21.542Z"
+  },
+  "status": "COMPLETED",
+  "tags": [],
+  "_class": "net.jdazher.domain.tasks.model.Task"
+},
+{
+  "_id": "84d3f260-91bc-4ce6-b798-a2767cd2e520",
+  "title": "Anything",
+  "description": "Develop anything",
+  "dueDate": {
+    "$date": "2025-03-21T10:45:21.542Z"
+  },
+  "status": "CREATED",
+  "tags": [],
+  "_class": "net.jdazher.domain.tasks.model.Task"
+},
+{
+  "_id": "78c4e07a-eb56-4953-ab7c-7b5c21882af9",
+  "title": "Buy groceries",
+  "description": "Milk, Bread, Eggs, and Cheese",
+  "dueDate": {
+    "$date": "2024-11-24T13:15:22.000Z"
+  },
+  "status": "CREATED",
+  "tags": [
+    {
+      "tag": "shopping"
+    },
+    {
+      "tag": "food"
+    }
+  ],
+  "_class": "net.jdazher.domain.tasks.model.Task"
+},
+{
+  "_id": "31544fd1-2df9-4d83-91d5-8c72da105724",
+  "title": "Anything",
+  "description": "Develop anything",
+  "dueDate": {
+    "$date": "2024-11-27T13:15:22.000Z"
+  },
+  "status": "CREATED",
+  "_class": "net.jdazher.domain.tasks.model.Task"
+},
+{
+  "_id": "e5400556-9104-4c11-8756-5f28ce6c3000",
+  "title": "Workout",
+  "description": "Go for a 5km run and strength training",
+  "dueDate": {
+    "$date": "2024-11-24T13:15:22.000Z"
+  },
+  "status": "IN_PROGRESS",
+  "tags": [
+    {
+      "tag": "fitness"
+    }
+  ],
+  "_class": "net.jdazher.domain.tasks.model.Task"
+}]

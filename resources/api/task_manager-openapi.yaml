@@ -1,0 +1,229 @@
+openapi: 3.0.0
+info:
+  title: task_manager API
+  description: task_manager API
+  version: 1.0.0
+servers:
+  - url: http://localhost:8080
+tags:
+  - name: tasks
+  - name: tasks > create
+  - name: tasks > create > all
+  - name: tasks > get
+  - name: tasks > get > all
+  - name: tasks > get > {id}
+  - name: tasks > update
+  - name: tasks > update > {id}
+paths:
+  /tasks/create/all:
+    post:
+      tags:
+        - tasks > create > all
+      summary: POST tasks/create/all
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              example:
+                - task:
+                    title: <string>
+                    description: <string>
+                    dueDate: <dateTime>
+                - task:
+                    title: <string>
+                    description: <string>
+                    dueDate: <dateTime>
+                    tags:
+                      - tag: <string>
+                      - tag: <string>
+      parameters:
+        - name: Content-Type
+          in: header
+          schema:
+            type: string
+          example: application/json
+        - name: Accept
+          in: header
+          schema:
+            type: string
+          example: '*/*'
+      responses:
+        '200':
+          description: OK
+          headers:
+            Content-Type:
+              schema:
+                type: string
+                example: '*/*'
+          content:
+            text/plain:
+              schema:
+                type: string
+              example: '[]'
+  /tasks/create:
+    post:
+      tags:
+        - tasks > create
+      summary: POST tasks/create
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              example:
+                task:
+                  title: <string>
+                  description: <string>
+                  dueDate: <dateTime>
+                  tags:
+                    - tag: <string>
+                    - tag: <string>
+      parameters:
+        - name: Content-Type
+          in: header
+          schema:
+            type: string
+          example: application/json
+        - name: Accept
+          in: header
+          schema:
+            type: string
+          example: '*/*'
+      responses:
+        '200':
+          description: OK
+          headers:
+            Content-Type:
+              schema:
+                type: string
+                example: '*/*'
+          content:
+            text/plain:
+              schema:
+                type: string
+              example: '{}'
+  /tasks/get/all:
+    get:
+      tags:
+        - tasks > get > all
+      summary: GET tasks/get/all
+      parameters:
+        - name: Accept
+          in: header
+          schema:
+            type: string
+          example: '*/*'
+      responses:
+        '200':
+          description: OK
+          headers:
+            Content-Type:
+              schema:
+                type: string
+                example: '*/*'
+          content:
+            text/plain:
+              schema:
+                type: string
+              example: '[]'
+  /tasks/get/{id}:
+    get:
+      tags:
+        - tasks > get > {id}
+      summary: GET tasks/get/{id}
+      parameters:
+        - name: Accept
+          in: header
+          schema:
+            type: string
+          example: '*/*'
+        - name: id
+          in: path
+          schema:
+            type: string
+          required: true
+          description: '(Required) '
+          example: <string>
+      responses:
+        '200':
+          description: OK
+          headers:
+            Content-Type:
+              schema:
+                type: string
+                example: '*/*'
+          content:
+            text/plain:
+              schema:
+                type: string
+              example: '{}'
+  /tasks/get:
+    get:
+      tags:
+        - tasks > get
+      summary: GET tasks/get
+      parameters:
+        - name: Accept
+          in: header
+          schema:
+            type: string
+          example: '*/*'
+        - name: title
+          in: query
+          schema:
+            type: string
+          description: '(Required) '
+          example: <string>
+      responses:
+        '200':
+          description: OK
+          headers:
+            Content-Type:
+              schema:
+                type: string
+                example: '*/*'
+          content:
+            text/plain:
+              schema:
+                type: string
+              example: '[]'
+  /tasks/update/{id}:
+    put:
+      tags:
+        - tasks > update > {id}
+      summary: PUT tasks/update/{id}
+      requestBody:
+        content: {}
+      parameters:
+        - name: Accept
+          in: header
+          schema:
+            type: string
+          example: '*/*'
+        - name: status
+          in: query
+          schema:
+            type: string
+          description: '(Required) '
+          example: DUE
+        - name: id
+          in: path
+          schema:
+            type: string
+          required: true
+          description: '(Required) '
+          example: <string>
+      responses:
+        '200':
+          description: OK
+          headers:
+            Content-Type:
+              schema:
+                type: string
+                example: '*/*'
+          content:
+            text/plain:
+              schema:
+                type: string
+              example: '{}'

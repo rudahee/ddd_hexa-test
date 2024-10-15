@@ -1,0 +1,14 @@
+net.jdazher.application.tasks.request
+net.jdazher.application.tasks.response
+net.jdazher.domain.tasks.error
+net.jdazher.domain.tasks.event
+net.jdazher.domain.tasks.model
+net.jdazher.domain.tasks.repository
+net.jdazher.domain.tasks.service
+net.jdazher.infrastructure.tasks
+net.jdazher.infrastructure.tasks.config
+net.jdazher.infrastructure.tasks.database.adapters
+net.jdazher.infrastructure.tasks.database.repositories
+net.jdazher.infrastructure.tasks.events
+net.jdazher.infrastructure.tasks.rest
+net.jdazher.infrastructure.tasks.scheduler
