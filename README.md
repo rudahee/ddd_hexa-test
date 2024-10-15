@@ -16,35 +16,44 @@ Before you begin, ensure you have the following installed:
 
 ## Setup Instructions
 
-**Database Setup**
-1. Install the latest version of MongoDB through this official tutorial:
+1. **Project Setup**
+   1. Clone the repository:
+      ```
+      git clone https://github.com/rudahee/ddd_hexa-test.git
+      ```
 
-   
-   ```ini
-   [Windows]
-   https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-windows/
-   ```
-   ```ini
-   [Linux]
-   https://www.mongodb.com/docs/manual/administration/install-on-linux/
-   ```
+   2. Navigate to the project directory:
+      ```
+      cd ddd_hexa-test
+      ```
 
+   3. Build the project using Maven (or using IDE GUI):
+      ```
+      mvn clean install
+      ```
 
-**Project Setup**
-1. Clone the repository:
-   ```
-   git clone https://github.com/rudahee/ddd_hexa-test.git
-   ```
+2. **Database Setup**
+   1. Install the latest version of MongoDB through this official tutorial:
+      ```ini
+      [Windows]
+      https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-windows/
+      ```
+      ```ini
+      [Linux]
+      https://www.mongodb.com/docs/manual/administration/install-on-linux/
+      ```
+   2. Load the data from command line into MongoDB through the file in the [resources folder](https://github.com/rudahee/ddd_hexa-test/blob/master/resources/db/taskDB.task.json).
+      ```
+      mongoimport --db taskDB --collection task --file resources/taskDB.task.json
+      ```
+3. **REST API Client Setup**
+   - **Postman**
+     1. Import Postman exported JSON via Postman GUI 
+     2. Add `baseUrl` env variable with `http://localhost:8080` value 
 
-2. Navigate to the project directory:
-   ```
-   cd ddd_hexa-test
-   ```
-
-3. Build the project using Maven (or using IDE GUI):
-   ```
-   mvn clean install
-   ```
+   - **Bruno**
+     1. Import OpenAPIv3 JSON via Bruno GUI 
+     2. Add `baseUrl` env variable with `http://localhost:8080` value 
 
 ## Project Structure
 
