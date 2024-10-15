@@ -9,206 +9,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ae2c171-e57a-4fce-8474-e57dcb8169fd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/allclasses-index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/allpackages-index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/element-list" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/help-doc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/index-files/index-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/index-files/index-10.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/index-files/index-11.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/index-files/index-12.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/index-files/index-13.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/index-files/index-14.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/index-files/index-15.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/index-files/index-16.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/index-files/index-17.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/index-files/index-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/index-files/index-3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/index-files/index-4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/index-files/index-5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/index-files/index-6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/index-files/index-7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/index-files/index-8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/index-files/index-9.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/jquery-ui.overrides.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/legal/ADDITIONAL_LICENSE_INFO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/legal/ASSEMBLY_EXCEPTION" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/legal/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/legal/jquery.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/legal/jqueryUI.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/member-search-index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/module-search-index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/net/jdazher/application/tasks/request/CreateTaskRequest.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/net/jdazher/application/tasks/request/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/net/jdazher/application/tasks/request/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/net/jdazher/application/tasks/response/CreateErrorResponse.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/net/jdazher/application/tasks/response/CreateTaskResponse.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/net/jdazher/application/tasks/response/Response.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/net/jdazher/application/tasks/response/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/net/jdazher/application/tasks/response/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/net/jdazher/domain/tasks/error/IllegalDateException.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/net/jdazher/domain/tasks/error/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/net/jdazher/domain/tasks/error/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/net/jdazher/domain/tasks/event/TaskEvent.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/net/jdazher/domain/tasks/event/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/net/jdazher/domain/tasks/event/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/net/jdazher/domain/tasks/model/Task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/net/jdazher/domain/tasks/model/TaskStatus.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/net/jdazher/domain/tasks/model/TaskTag.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/net/jdazher/domain/tasks/model/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/net/jdazher/domain/tasks/model/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/net/jdazher/domain/tasks/repository/TaskRepository.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/net/jdazher/domain/tasks/repository/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/net/jdazher/domain/tasks/repository/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/net/jdazher/domain/tasks/request/CreateTaskRequest.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/net/jdazher/domain/tasks/request/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/net/jdazher/domain/tasks/request/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/net/jdazher/domain/tasks/response/CreateErrorResponse.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/net/jdazher/domain/tasks/response/CreateTaskResponse.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/net/jdazher/domain/tasks/response/Response.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/net/jdazher/domain/tasks/response/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/net/jdazher/domain/tasks/response/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/net/jdazher/domain/tasks/service/DomainTaskService.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/net/jdazher/domain/tasks/service/TaskService.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/net/jdazher/domain/tasks/service/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/net/jdazher/domain/tasks/service/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/net/jdazher/infrastructure/tasks/MainApplication.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/net/jdazher/infrastructure/tasks/config/BeanConfiguration.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/net/jdazher/infrastructure/tasks/config/WebConfiguration.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/net/jdazher/infrastructure/tasks/config/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/net/jdazher/infrastructure/tasks/config/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/net/jdazher/infrastructure/tasks/database/adapters/MongoDBTaskManagementAdapter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/net/jdazher/infrastructure/tasks/database/adapters/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/net/jdazher/infrastructure/tasks/database/adapters/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/net/jdazher/infrastructure/tasks/database/repositories/SpringDataMongoTaskRepository.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/net/jdazher/infrastructure/tasks/database/repositories/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/net/jdazher/infrastructure/tasks/database/repositories/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/net/jdazher/infrastructure/tasks/events/DomainTaskEventListener.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/net/jdazher/infrastructure/tasks/events/TaskDueEvent.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/net/jdazher/infrastructure/tasks/events/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/net/jdazher/infrastructure/tasks/events/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/net/jdazher/infrastructure/tasks/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/net/jdazher/infrastructure/tasks/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/net/jdazher/infrastructure/tasks/rest/TaskController.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/net/jdazher/infrastructure/tasks/rest/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/net/jdazher/infrastructure/tasks/rest/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/net/jdazher/infrastructure/tasks/scheduler/TaskSchedulerComponent.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/net/jdazher/infrastructure/tasks/scheduler/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/net/jdazher/infrastructure/tasks/scheduler/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/overview-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/overview-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/package-search-index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/resources/glass.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/resources/x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/script-dir/jquery-3.6.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/script-dir/jquery-ui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/script-dir/jquery-ui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/search.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/serialized-form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/tag-search-index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/type-search-index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/api/task_manager-openapi.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/api/task_manager.postman_collection.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/db/taskDB.task.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task-manager-application/src/main/java/net/jdazher/application/tasks/request/CreateTaskRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task-manager-application/src/main/java/net/jdazher/application/tasks/response/CreateErrorResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task-manager-application/src/main/java/net/jdazher/application/tasks/response/CreateTaskResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task-manager-application/src/main/java/net/jdazher/application/tasks/response/Response.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task-manager-infrastructure/src/main/java/net/jdazher/infrastructure/tasks/config/BeanConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task-manager-infrastructure/src/main/java/net/jdazher/infrastructure/tasks/config/WebConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task-manager-infrastructure/src/main/java/net/jdazher/infrastructure/tasks/database/adapters/MongoDBTaskManagementAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task-manager-infrastructure/src/main/java/net/jdazher/infrastructure/tasks/database/repositories/SpringDataMongoTaskRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task-manager-infrastructure/src/main/java/net/jdazher/infrastructure/tasks/events/DomainTaskEventListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task-manager-infrastructure/src/main/java/net/jdazher/infrastructure/tasks/events/TaskDueEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task-manager-infrastructure/src/main/java/net/jdazher/infrastructure/tasks/rest/TaskController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task-manager-infrastructure/src/main/java/net/jdazher/infrastructure/tasks/scheduler/TaskSchedulerComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/7/074e02274cd9b5d07f626073b1bbaf664445e940" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/c/0caa57ac0fef9c4907c28110d3629229c593013a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/c/0cf772fc93ae0b351d16d47b55313d97de55a2b8" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/c/0cf772fc93ae0b351d16d47b55313d97de55a2b8" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/1/21c2d0d13fc0b680199eddd09814f92759f4abae" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/d/2d6d96def1a95b778674496c29b55dcfd5b6a3f0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/4/34347e5e21b9b665211a04e48615e667f271431b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/8/38e6502ff811cab05fdc2bc9f9109ed58b2e4594" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/a/3a34c4fa7d4ff0e9d91ffa7edb332cb926e70d4b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/7/5701220466b8badd7a84f57b139320b41ee296d3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/7/57989c0c14342703718ce1082f13f50ab113e8a8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/4/64be8af0abcc20d6233b46eed94d3dd4fc5b7b43" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/0/70b1a4d678dbb929634a45c9341c3168437fff76" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/5/75c86e340d37e0db9b887e0de3a23ca8922799f3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/2/82b94bed6f7e7c55cdf61592a4a7c9ccdefede35" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/4/a41797841f7d4716a58b6dc3146ba1e551104442" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/e/ae510b2f1c2375d98635f2de8cb10b5d66eaa794" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/f/bf2898a98c7e9bf7c8f410bb0bb00fd0be18d5c3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/4/c4e4818dfaa6d09ff11e6eb989ddddd7eacaeb84" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/0/d0f67b9345157b333e94c1fc9ed7e6a44f236df1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/4/d466bd700a360ad01bc9d0a67cb007f7fbd075b0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/b/dbae9ec3f2c1293a1d3b46753a54b15442af2df1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/9/f9278b81d4256e6d98881b71b2131a65eb4e5f9b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/c/fcddab4cc99624e7c887acc85d60078ad30b1df1" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/c/fcddab4cc99624e7c887acc85d60078ad30b1df1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scripts/installAsService.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/7/074e02274cd9b5d07f626073b1bbaf664445e940" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/c/0caa57ac0fef9c4907c28110d3629229c593013a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/1/21c2d0d13fc0b680199eddd09814f92759f4abae" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/d/2d6d96def1a95b778674496c29b55dcfd5b6a3f0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/4/34347e5e21b9b665211a04e48615e667f271431b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/8/38e6502ff811cab05fdc2bc9f9109ed58b2e4594" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/a/3a34c4fa7d4ff0e9d91ffa7edb332cb926e70d4b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/7/5701220466b8badd7a84f57b139320b41ee296d3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/7/57989c0c14342703718ce1082f13f50ab113e8a8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/4/64be8af0abcc20d6233b46eed94d3dd4fc5b7b43" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/0/70b1a4d678dbb929634a45c9341c3168437fff76" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/5/75c86e340d37e0db9b887e0de3a23ca8922799f3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/2/82b94bed6f7e7c55cdf61592a4a7c9ccdefede35" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/4/a41797841f7d4716a58b6dc3146ba1e551104442" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/e/ae510b2f1c2375d98635f2de8cb10b5d66eaa794" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/f/bf2898a98c7e9bf7c8f410bb0bb00fd0be18d5c3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/4/c4e4818dfaa6d09ff11e6eb989ddddd7eacaeb84" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/0/d0f67b9345157b333e94c1fc9ed7e6a44f236df1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/4/d466bd700a360ad01bc9d0a67cb007f7fbd075b0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/b/dbae9ec3f2c1293a1d3b46753a54b15442af2df1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/9/f9278b81d4256e6d98881b71b2131a65eb4e5f9b" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/jdazher/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task-manager-application/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/task-manager-application/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task-manager-application/src/main/java/net/jdazher/tasks/request/CreateTaskRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task-manager-application/src/main/java/net/jdazher/tasks/response/CreateErrorResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task-manager-application/src/main/java/net/jdazher/tasks/response/CreateTaskResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task-manager-application/src/main/java/net/jdazher/tasks/response/Response.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task-manager-application/src/test/java/net/jdazher/tasks/request/CreateTaskRequestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/task-manager-application/src/test/java/net/jdazher/tasks/request/CreateTaskRequestTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task-manager-application/src/test/java/net/jdazher/tasks/response/CreateErrorResponseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/task-manager-application/src/test/java/net/jdazher/tasks/response/CreateErrorResponseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task-manager-application/src/test/java/net/jdazher/tasks/response/CreateTaskResponseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/task-manager-application/src/test/java/net/jdazher/tasks/response/CreateTaskResponseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task-manager-domain/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/task-manager-domain/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task-manager-domain/src/main/java/net/jdazher/domain/tasks/error/IllegalDateException.java" beforeDir="false" afterPath="$PROJECT_DIR$/task-manager-domain/src/main/java/net/jdazher/domain/tasks/error/IllegalDateException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task-manager-domain/src/main/java/net/jdazher/domain/tasks/event/TaskEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/task-manager-domain/src/main/java/net/jdazher/domain/tasks/event/TaskEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task-manager-domain/src/main/java/net/jdazher/domain/tasks/model/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/task-manager-domain/src/main/java/net/jdazher/domain/tasks/model/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task-manager-domain/src/main/java/net/jdazher/domain/tasks/model/TaskStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/task-manager-domain/src/main/java/net/jdazher/domain/tasks/model/TaskStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task-manager-domain/src/main/java/net/jdazher/domain/tasks/model/TaskTag.java" beforeDir="false" afterPath="$PROJECT_DIR$/task-manager-domain/src/main/java/net/jdazher/domain/tasks/model/TaskTag.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task-manager-domain/src/main/java/net/jdazher/domain/tasks/repository/TaskRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/task-manager-domain/src/main/java/net/jdazher/domain/tasks/repository/TaskRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task-manager-domain/src/main/java/net/jdazher/domain/tasks/service/DomainTaskService.java" beforeDir="false" afterPath="$PROJECT_DIR$/task-manager-domain/src/main/java/net/jdazher/domain/tasks/service/DomainTaskService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task-manager-domain/src/main/java/net/jdazher/domain/tasks/service/TaskService.java" beforeDir="false" afterPath="$PROJECT_DIR$/task-manager-domain/src/main/java/net/jdazher/domain/tasks/service/TaskService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task-manager-domain/src/test/java/net/jdazher/domain/tasks/model/TaskTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/task-manager-domain/src/test/java/net/jdazher/domain/tasks/model/TaskTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task-manager-domain/src/test/java/net/jdazher/domain/tasks/service/DomainTaskServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/task-manager-domain/src/test/java/net/jdazher/domain/tasks/service/DomainTaskServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task-manager-infrastructure/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/task-manager-infrastructure/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task-manager-infrastructure/src/main/java/net/jdazher/tasks/infrastructure/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/task-manager-infrastructure/src/main/java/net/jdazher/infrastructure/tasks/MainApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task-manager-infrastructure/src/main/java/net/jdazher/tasks/infrastructure/config/BeanConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task-manager-infrastructure/src/main/java/net/jdazher/tasks/infrastructure/database/adapters/MongoDBTaskManagementAdapter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task-manager-infrastructure/src/main/java/net/jdazher/tasks/infrastructure/database/repositories/SpringDataMongoTaskRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task-manager-infrastructure/src/main/java/net/jdazher/tasks/infrastructure/events/DomainTaskEventListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task-manager-infrastructure/src/main/java/net/jdazher/tasks/infrastructure/events/TaskDueEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task-manager-infrastructure/src/main/java/net/jdazher/tasks/infrastructure/rest/TaskController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task-manager-infrastructure/src/main/java/net/jdazher/tasks/infrastructure/scheduler/TaskSchedulerComponent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task-manager-infrastructure/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/task-manager-infrastructure/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task-manager-infrastructure/src/test/java/net/jdazher/tasks/infrastructure/database/adapters/MongoDBTaskManagementAdapterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/task-manager-infrastructure/src/test/java/net/jdazher/tasks/infrastructure/database/adapters/MongoDBTaskManagementAdapterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task-manager-infrastructure/src/test/java/net/jdazher/tasks/infrastructure/events/DomainTaskEventListenerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/task-manager-infrastructure/src/test/java/net/jdazher/tasks/infrastructure/events/DomainTaskEventListenerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task-manager-infrastructure/src/test/java/net/jdazher/tasks/infrastructure/rest/TaskControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/task-manager-infrastructure/src/test/java/net/jdazher/tasks/infrastructure/rest/TaskControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task-manager-infrastructure/src/test/java/net/jdazher/tasks/infrastructure/scheduler/TaskSchedulerComponentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/task-manager-infrastructure/src/test/java/net/jdazher/tasks/infrastructure/scheduler/TaskSchedulerComponentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -267,6 +72,7 @@
     "Maven.task-manager [clean,install...].executor": "Run",
     "Maven.task-manager [clean].executor": "Run",
     "Maven.task-manager [install].executor": "Run",
+    "Maven.task-manager [spring:run].executor": "Run",
     "Maven.task-manager [test].executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
@@ -276,6 +82,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.MainApplication (1).executor": "Run",
     "Spring Boot.MainApplication.executor": "Run",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
@@ -329,9 +136,10 @@
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn clean install -Dmaven.skip.test" />
+      <command value="mvn spring:run" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in task-manager">
+  <component name="RunManager" selected="Spring Boot.MainApplication (1)">
     <configuration name="All in task-manager" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="task-manager" />
       <option name="PACKAGE_NAME" value="" />
@@ -444,7 +252,7 @@
       <workItem from="1728562037517" duration="423000" />
       <workItem from="1728644700280" duration="20146000" />
       <workItem from="1728780118062" duration="40778000" />
-      <workItem from="1728929086429" duration="11057000" />
+      <workItem from="1728929086429" duration="16573000" />
     </task>
     <servers />
   </component>

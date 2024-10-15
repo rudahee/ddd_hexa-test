@@ -114,3 +114,5 @@ etask-manager-application/src/main/java/net/jdazher/application/tasks/response/C
 [task-manager-application/src/main/java/net/jdazher/application/tasks/response/Response.java,8\c\8c607ea6c9753ebcd0fbe34e347451dc8f9c416a
 M
 resources/db/taskDB.task.json,5\9\598f2ce9d1605bdc56a27bff3833c6ebec6fafa8
+U
+%resources/scripts/installAsService.sh,a\e\aed955d80a3f41ea50cd75db4375bbe928485daf

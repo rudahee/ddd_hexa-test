@@ -1,14 +1,18 @@
 
-# Task Management App.
+# Task Management App
 
-This guide will help you set up and use the DDD Hexagonal Architecture test application from the [rudahee/ddd_hexa-test](https://github.com/rudahee/ddd_hexa-test) GitHub repository.
+This repository contains an application where you can manage tasks. 
+In addition, in this repository you will find everything you need to run it.
 
 ## Prerequisites
 
 Before you begin, ensure you have the following installed:
+
 - Java Development Kit (JDK)
-- Maven
+- MongoDB
 - Git
+- Some REST Client (Bruno is my recommendation)
+- Some IDE for Java (Jetbrains bundle is my choice)
 
 ## Setup Instructions
 
@@ -22,7 +26,7 @@ Before you begin, ensure you have the following installed:
    cd ddd_hexa-test
    ```
 
-3. Build the project using Maven:
+3. Build the project using Maven (or using IDE GUI):
    ```
    mvn clean install
    ```
@@ -37,16 +41,11 @@ The project is structured following the Hexagonal Architecture and DDD pattern:
 
 ## Running the Application
 
-
-
 To run the application once compiled, use the following command:
 ```
 java -jar task-manager-infrastructure/target/task-manager-infrastructure-1.0-SNAPSHOT.jar
 ```
-
-```
-mvn 
-```
+or using script on `resources\scripts` folder.
 
 ## Testing
 
@@ -58,21 +57,13 @@ mvn test
 
 ## Usage
 
-The application likely provides RESTful endpoints for task management. However, specific endpoints and their usage are not detailed in the repository. You may need to explore the codebase or check for any available API documentation.
-
-## Contributing
-
-If you wish to contribute to this project:
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+The application likely provides RESTful endpoints for task management. However, specific endpoints and their usage 
+are not detailed in this readme. You can check all endpoints on `resources\api` on OpenAPI yaml or postman collection.
 
 ## Additional Notes
 
 - This project serves as a demonstration of DDD (Domain-Driven Design) and Hexagonal Architecture principles in Java.
 - The use of Spring Boot is evident from the `pom.xml` file, indicating that this is a Spring Boot application.
-- For more detailed information about the project structure and implementation details, refer to the source code and any additional documentation within the repository.
+- For more detailed information about the project structure and implementation details, 
+refer to the source code and any additional documentation within the repository.
 
