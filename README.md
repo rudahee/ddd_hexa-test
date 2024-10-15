@@ -22,9 +22,12 @@ Before you begin, ensure you have the following installed:
    
    ```ini
    [Windows]
+   https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-windows/
    ```
-   > https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-windows/
-
+   ```ini
+   [Linux]
+   https://www.mongodb.com/docs/manual/administration/install-on-linux/
+   ```
 
 
 **Project Setup**
