@@ -9,9 +9,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ae2c171-e57a-4fce-8474-e57dcb8169fd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/scripts/installAsService.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -52,56 +49,57 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Attach to process.pid 15252.executor": "ProcessAttachDebug",
-    "HTTP Request.All in generated-requests.executor": "Run",
-    "JUnit.All in task-manager.executor": "Run",
-    "JUnit.CreateTaskRequestTest.executor": "Run",
-    "JUnit.CreateTaskRequestTest.testJsonSerialization.executor": "Debug",
-    "JUnit.DomainTaskEventListenerTest.executor": "Run",
-    "JUnit.MongoDBTaskManagementAdapterTest.executor": "Run",
-    "JUnit.MongoDBTaskManagementAdapterTest.testGetAllTasks.executor": "Run",
-    "JUnit.MongoDBTaskManagementAdapterTest.testGetTaskById_Success.executor": "Run",
-    "JUnit.TaskControllerTest.executor": "Run",
-    "JUnit.TaskControllerTest.testCreateOne_Success.executor": "Run",
-    "JUnit.TaskSchedulerComponentTest.executor": "Run",
-    "JUnit.TaskTest.executor": "Run",
-    "JUnit.java in task-manager-application.executor": "Run",
-    "JUnit.java in task-manager-domain.executor": "Run",
-    "Maven.task-manager [clean,install...].executor": "Run",
-    "Maven.task-manager [clean].executor": "Run",
-    "Maven.task-manager [install].executor": "Run",
-    "Maven.task-manager [spring:run].executor": "Run",
-    "Maven.task-manager [test].executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "ResultTool:SCAN_SERVICE_WITH_LIB": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.MainApplication (1).executor": "Run",
-    "Spring Boot.MainApplication.executor": "Run",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "jdk.selected.JAVA_MODULE": "corretto-17",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/jdazh/IdeaProjects/task-manager/docs",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/jdazh/IdeaProjects/task-manager/task-manager-domain/src/main/java/net/jdazher/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Attach to process.pid 15252.executor&quot;: &quot;ProcessAttachDebug&quot;,
+    &quot;HTTP Request.All in generated-requests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in task-manager.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreateTaskRequestTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreateTaskRequestTest.testJsonSerialization.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.DomainTaskEventListenerTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MongoDBTaskManagementAdapterTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MongoDBTaskManagementAdapterTest.testGetAllTasks.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MongoDBTaskManagementAdapterTest.testGetTaskById_Success.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TaskControllerTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TaskControllerTest.testCreateOne_Success.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TaskSchedulerComponentTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TaskTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.java in task-manager-application.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.java in task-manager-domain.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.task-manager [clean,install...].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.task-manager [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.task-manager [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.task-manager [spring:run].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.task-manager [test].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;ResultTool:SCAN_SERVICE_WITH_LIB&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.MainApplication (1).executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.MainApplication.executor&quot;: &quot;Run&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/jdazh/IdeaProjects/task-manager/docs&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/jdazh/IdeaProjects/task-manager/task-manager-domain/src/main/java/net/jdazher/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\jdazh\IdeaProjects\task-manager\docs" />
@@ -139,7 +137,7 @@
       <command value="mvn spring:run" />
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.MainApplication (1)">
+  <component name="RunManager" selected="JUnit.All in task-manager">
     <configuration name="All in task-manager" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="task-manager" />
       <option name="PACKAGE_NAME" value="" />
@@ -226,20 +224,13 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.All in task-manager" />
-        <item itemvalue="JUnit.MongoDBTaskManagementAdapterTest" />
         <item itemvalue="JUnit.MongoDBTaskManagementAdapterTest.testGetTaskById_Success" />
         <item itemvalue="JUnit.MongoDBTaskManagementAdapterTest.testGetAllTasks" />
+        <item itemvalue="JUnit.MongoDBTaskManagementAdapterTest" />
         <item itemvalue="JUnit.DomainTaskEventListenerTest" />
+        <item itemvalue="JUnit.All in task-manager" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

@@ -16,6 +16,17 @@ Before you begin, ensure you have the following installed:
 
 ## Setup Instructions
 
+**Database Setup**
+1. Install the latest version of MongoDB through this official tutorial:
+
+   > [!Important]
+   > Windows
+   ```
+   https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-windows/
+   ```
+
+
+**Project Setup**
 1. Clone the repository:
    ```
    git clone https://github.com/rudahee/ddd_hexa-test.git
